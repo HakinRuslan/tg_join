@@ -26,7 +26,7 @@ SESSION_NAME = "telegram_session"
 
 MAX_ACTIONS_PER_SESSION = 4
 WAIT_BETWEEN_ACTIONS = 3
-WAIT_BETWEEN_SESSIONS = 900
+WAIT_BETWEEN_SESSIONS = 600
 
 LOG_FILE = "telegram_join_log.json"
 
@@ -350,18 +350,36 @@ async def main():
     if not links:
 
         links = [
-            "https://t.me/sdam_prodam_Moskva",
-            "https://t.me/commercial_apex_realty",
-            "https://t.me/moskvartira",
-            "https://t.me/realtmart_chat",
-            "https://t.me/arenda_msk_collife",
-            "https://t.me/+G6aoIiXnhKozZTVi",
-            "https://t.me/gladston_ru",
-            "https://t.me/nedvizhimosti_moskva",
-            "https://t.me/Kommerch",
-            "https://t.me/nedvizmos",
-            "https://t.me/mediarealty_chat",
-            "https://t.me/realtorussia"
+            "https://t.me/sportivnye_predprinimateli",
+            "https://t.me/resto_business",
+            "https://t.me/flowerclublive",
+            "https://t.me/sewingtechnologist",
+            "https://t.me/deepfoodtech",
+            "https://t.me/arinkinaleksey",
+            "https://t.me/avto_rx",
+            "https://t.me/joinchat/VlCPa_0OIl4ECnT5",
+            "https://t.me/joinchat/AAAAAA2jpapYiYrgQ4CmrQ",
+            "https://t.me/+I1IKphaN4FxhY2Qy",
+            "https://t.me/joinchat/Q-xVvGi8FXM3NDYy",
+            "https://t.me/joinchat/aQjUfQYGHdNiMzFi",
+            "https://t.me/joinchat/gQdUAVV-vSBmZmQy",
+            "https://t.me/joinchat/3dKi-3pSHtU5Nzcy",
+            "https://t.me/+VHxwbEi39jLXK8Ha",
+            "https://t.me/+_45y-dw1Cxk5ODMy",
+            "https://t.me/speakerclub_ru_bot",
+            "https://t.me/joinchat/FwHveRHHQbE1TjkxXRifSQ",
+            "https://t.me/+5j79JdAfEMU5ODYy",
+            "https://t.me/+DvpYLYf54OZlZDky",
+            "https://t.me/+OKqHkLvioC1mMGM6",
+            "https://t.me/+3UBiNG7Grl1lYTdi",
+            "https://t.me/joinchat/oMWA8zXV-sthOTEy",
+            "https://t.me/marketingsmm01",
+            "https://t.me/+STWXjPedKcDnESot",
+            "https://t.me/water_all",
+            "https://t.me/fromBerek",
+            "https://t.me/drivemoscow_chat",
+            "https://t.me/pinterestchat_21",
+
         ]
 
     print(
